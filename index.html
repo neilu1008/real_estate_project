@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---------- CSS---------- -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="css/general.css" />
+
+    <script defer src="script.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="nav-container">
+      <div class="left-nav"></div>
+      <nav class="nav-bar">
+        <ul class="main-nav-list">
+          <li><a class="btn Home" href="index.html">Home</a></li>
+          <li><a class="btn Home" href="#search">Browse</a></li>
+          <li><a class="btn Products" href="#Homes">Featured</a></li>
+          <li><a class="btn About" href="#about">About</a></li>
+          <li><a class="btn Contact" href="#contacts">Contact</a></li>
+        </ul>
+
+        <div class="contact-container">
+          <li>
+            <a class="btn contact-number" href="tel:760-396-7564"
+              >Phone: 760-396-7564</a
+            >
+          </li>
+        </div>
+        <button class="btn-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="bar-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-home">
+        <div class="home-container">
+          <div class="background-container">
+            <div class="home-text-box">
+              <h1 class="heading-primary">Find Your Dream Home Today!</h1>
+              <p class="home-text">
+                Helping people everyday find the perfect house that's right for
+                them
+              </p>
+
+              <a href="#" class="btn-link btn-margin-right-sm"
+                >Find Your House Today
+              </a>
+              <a href="#" class="btn-link">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-services" id="search">
+        <div class="container center-text">
+          <h2 class="heading-secondary">Search For a Home Locally</h2>
+        </div>
+
+        <div class="search container">
+          <div class="search-homes">
+            <p class="text-card">
+              Start here by browsing homes in your desired area. Click to access
+              all avaible homes for sale.
+            </p>
+            <hr />
+            <a
+              class="search-homes-link"
+              href="https://www.zillow.com/"
+              target="_blank"
+              >Search Homes!</a
+            >
+          </div>
+        </div>
+      </section>
+      <!------- HOUSE CARDS ---- -->
+      <section class="section-houses" id="Homes">
+        <div class="container center-text">
+          <h2 class="heading-secondary">Our Featured Homes</h2>
+        </div>
+
+        <div class="container grid grid--cols-3">
+          <div class="house">
+            <img
+              src="imgs/houses/house-one.jpg"
+              class="house-img"
+              alt="pciture of a house"
+            />
+
+            <p class="house-title">
+              <span class="title-container">Newport - Road Island</span>
+            </p>
+            <ul class="house-attributes">
+              <li class="house-attribute">
+                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <span class="attribute"> 3,300sqft</span>
+              </li>
+              <li class="house-attribute">
+                <ion-icon class="icon" name="bed-outline"></ion-icon>
+                <span class="attribute">5 bedrooms</span>
+              </li>
+              <li class="house-attribute">
+                <ion-icon class="icon" name="water-outline"></ion-icon>
+
+                <span class="attribute"> 3 baths</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- --------HOUSE 2-------- -->
+          <div class="house">
+            <img
+              src="imgs/houses/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg"
+              class="house-img house-img--height"
+              alt="pciture of a house"
+            />
+
+            <p class="house-title">
+              <span class="title-container-two">Como - Colorado</span>
+            </p>
+            <ul class="house-attributes">
+              <li class="house-attribute">
+                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <span class="attribute"> 2,700sqft</span>
+              </li>
+              <li class="house-attribute">
+                <ion-icon class="icon" name="bed-outline"></ion-icon>
+                <span class="attribute"> 4 bedrooms</span>
+              </li>
+              <li class="house-attribute">
+                <ion-icon class="icon" name="water-outline"></ion-icon>
+
+                <span class="attribute"> 2 baths</span>
+              </li>
+            </ul>
+          </div>
+          <!-- --------HOUSE 3-------- -->
+          <div class="house">
+            <img
+              src="imgs/houses/house-three.jpg"
+              class="house-img"
+              alt="pciture of a house"
+            />
+
+            <p class="house-title">
+              <span class="title-container-three">Dendron - Virginia</span>
+            </p>
+            <ul class="house-attributes">
+              <li class="house-attribute">
+                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <span class="attribute"> 2,650sqft</span>
+              </li>
+              <li class="house-attribute">
+                <ion-icon class="icon" name="bed-outline"></ion-icon>
+                <span class="attribute">4 bedrooms</span>
+              </li>
+              <li class="house-attribute">
+                <ion-icon class="icon" name="water-outline"></ion-icon>
+
+                <span class="attribute">3 baths</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-provide" id="about">
+        <h2 class="heading-secondary center-text">What we provide</h2>
+        <div class="grid grid--cols-3 container-two">
+          <div class="description">
+            <h3 class="description-title">Fast Communication</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+              velit libero. Consequatur aperiam, natus voluptatem quasi illo
+              autem quia amet.
+            </p>
+          </div>
+          <div class="description">
+            <h3 class="description-title">Find or Sell Your Home Fast</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+              velit libero. Consequatur aperiam, natus voluptatem quasi illo
+              autem quia amet.
+            </p>
+          </div>
+          <div class="description">
+            <h3 class="description-title">Straight Forward Process</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+              velit libero. Consequatur aperiam, natus voluptatem quasi illo
+              autem quia amet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about margin-top">
+        <h2 class="heading-secondary">About Us</h2>
+        <div class="about grid grid--cols-2 container-two">
+          <div class="about-text">
+            <div class="subheading">
+              We Center Our Mission Around Communication
+            </div>
+            <p class="about-paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatibus eligendi similique nihil quos atque reprehenderit
+              officiis aspernatur quae quas, ab ea. Id porro fuga impedit, quos
+              voluptate voluptates ipsum expedita tempora tenetur earum cum
+              ullam similique ex natus sequi esse? Vel quibusdam voluptate rerum
+              adipisci corrupti maxime placeat impedit asperiores. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Aspernatur sint
+              cumque, aliquam a vero eligendi deserunt temporibus quo
+              repellendus, sunt nemo magni distinctio eaque vel explicabo
+              aliquid possimus, architecto in exercitationem illum. Hic quos vel
+              fugit consequuntur nam distinctio optio eos voluptatibus ducimus
+              architecto. Tenetur cupiditate dolorum adipisci aliquam, molestiae
+              dolorem? Dolorem non saepe nostrum laudantium aliquam tempore
+              nulla corporis numquam, et in cumque blanditiis, odio consequatur
+              commodi, quam beatae magnam mollitia quis porro? Dolorum.
+            </p>
+          </div>
+          <div class="about-img-box">
+            <img
+              class="about-img"
+              src="imgs/people/christina-wocintechchat-com-swi1DGRCshQ-unsplash.jpg"
+              alt="Picture of two professonal realestate employees at Agate Realtors"
+            />
+          </div>
+
+          <div class="about-img-box">
+            <img
+              class="about-img"
+              src="imgs/people/campaign-creators-gMsnXqILjp4-unsplash (1).jpg"
+              alt="Picture of a meeting between an entire team of realestate employees at Agate Realtors"
+            />
+          </div>
+
+          <div class="about-text">
+            <div class="subheading">Been in Business for Over 15 years</div>
+            <p class="about-paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatibus eligendi similique nihil quos atque reprehenderit
+              officiis aspernatur quae quas, ab ea. Id porro fuga impedit, quos
+              voluptate voluptates ipsum expedita tempora tenetur earum cum
+              ullam similique ex natus sequi esse? Vel quibusdam voluptate rerum
+              adipisci corrupti maxime placeat impedit asperiores. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Aspernatur sint
+              cumque, aliquam a vero eligendi deserunt temporibus quo
+              repellendus, sunt nemo magni distinctio eaque vel explicabo
+              aliquid possimus, architecto in exercitationem illum. Hic quos vel
+              fugit consequuntur nam distinctio optio eos voluptatibus ducimus
+              architecto. Tenetur cupiditate.
+            </p>
+          </div>
+
+          <div class="about-text">
+            <div class="subheading">Passion for Satisfying Your Needs</div>
+            <p class="about-paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatibus eligendi similique nihil quos atque reprehenderit
+              officiis aspernatur quae quas, ab ea. Id porro fuga impedit, quos
+              voluptate voluptates. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Praesentium fugit dolorum minus quam, in
+              cupiditate dolore maxime mollitia laudantium enim!
+            </p>
+          </div>
+
+          <div class="about-img-box">
+            <img
+              class="about-img"
+              src="imgs/people/robert-linder-DbHe-Cw5r2A-unsplash.jpg"
+              alt="Picture of a sold sign on a house"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-CTA margin-top" id="contacts">
+        <div class="container">
+          <div class="CTA">
+            <div class="CTA-text-box">
+              <h2 class="heading-secondary">Find or Sell Your House Today</h2>
+              <p class="cta-text">
+                Give us a call or send us your contact information and one of
+                our realtors will contact you shortly
+              </p>
+              <form class="form" action="#">
+                <div>
+                  <label for="full-name">Full Name:</label>
+
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="First and Lastname"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email Address:</label>
+
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="phone-number">Phone Number:</label>
+
+                  <input
+                    id="phone-number"
+                    type="tel"
+                    placeholder="Phone number"
+                  />
+                </div>
+
+                <div>
+                  <label for="what"> Buying or selling a house? </label>
+
+                  <select id="what" required>
+                    <option value="selling">Selling</option>
+                    <option value="buying">Buying</option>
+                    <option value="interested">Just interested/looking</option>
+                  </select>
+                </div>
+              </form>
+              <div><button class="button button-form">Send</button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <h2>Logo</h2>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Agrate Realtors,
+            Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@agrateRealtors.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
